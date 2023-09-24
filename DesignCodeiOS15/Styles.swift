@@ -7,12 +7,32 @@
 
 import SwiftUI
 
-struct Styles: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct StrokeStyle: ViewModifier {
+    var cornerRadius: CGFloat
+    @Environment(\.colorScheme) var colorScheme
+    func body(content: Content) -> some View {
+        content.overlay(
+            RoundedRectangle(
+                cornerRadius: cornerRadius,
+                style: .continuous
+            )
+            .stroke(
+                .linearGradient(
+                    colors: [
+                        .white.opacity(colorScheme == .light ? 0.3 : 0.6), // 黑色主题时突出白色线条
+                        .black.opacity(colorScheme == .light ? 0.1 : 0.2)
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            )
+            .blendMode(.overlay)
+        )
     }
 }
 
-#Preview {
-    Styles()
+extension View {
+    func storkeStyle(cornerRadius: CGFloat = 20.0) -> some View {
+        modifier(StrokeStyle(cornerRadius: cornerRadius))
+    }
 }
