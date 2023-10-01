@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2206EF1E2AC31558004FB0F9 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206EF1D2AC31557004FB0F9 /* Tabbar.swift */; };
 		2206EF202AC31749004FB0F9 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206EF1F2AC31749004FB0F9 /* CustomTabbar.swift */; };
+		2218D0B42AC5581A00F8131C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218D0B32AC5581A00F8131C /* Tab.swift */; };
 		227321082ABAE60100F7A9CB /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227321072ABAE60100F7A9CB /* Styles.swift */; };
 		2273210A2ABAF01200F7A9CB /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227321092ABAF01200F7A9CB /* AccountView.swift */; };
 		22DA677C2ABFE1D900F073DB /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA677B2ABFE1D900F073DB /* Hexagon.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		2206EF1D2AC31557004FB0F9 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		2206EF1F2AC31749004FB0F9 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		2218D0B32AC5581A00F8131C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		227321072ABAE60100F7A9CB /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		227321092ABAF01200F7A9CB /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		22DA677B2ABFE1D900F073DB /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				22DA677B2ABFE1D900F073DB /* Hexagon.swift */,
 				2206EF1D2AC31557004FB0F9 /* Tabbar.swift */,
 				2206EF1F2AC31749004FB0F9 /* CustomTabbar.swift */,
+				2218D0B32AC5581A00F8131C /* Tab.swift */,
 				227321072ABAE60100F7A9CB /* Styles.swift */,
 				22DA8D732AB9ED4B008B0FB8 /* Assets.xcassets */,
 				22DA8D752AB9ED4B008B0FB8 /* Preview Content */,
@@ -155,6 +158,7 @@
 				2273210A2ABAF01200F7A9CB /* AccountView.swift in Sources */,
 				227321082ABAE60100F7A9CB /* Styles.swift in Sources */,
 				2206EF202AC31749004FB0F9 /* CustomTabbar.swift in Sources */,
+				2218D0B42AC5581A00F8131C /* Tab.swift in Sources */,
 				22DA8D722AB9ED4A008B0FB8 /* ContentView.swift in Sources */,
 				2206EF1E2AC31558004FB0F9 /* Tabbar.swift in Sources */,
 				22DA8D702AB9ED4A008B0FB8 /* DesignCodeiOS15App.swift in Sources */,
