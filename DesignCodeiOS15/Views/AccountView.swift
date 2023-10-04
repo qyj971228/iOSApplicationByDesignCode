@@ -10,6 +10,7 @@ import SwiftUI
 struct AccountView: View {
     @State var isAppleLinkDeleted = false
     @State var isAppleLinkPanned = false
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         //        NavigationView {
@@ -29,6 +30,13 @@ struct AccountView: View {
             }
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarItems(trailing: Button {
+                    presentationMode.wrappedValue.dismiss()
+                } label : {
+                    Text("Done").bold()
+                }
+            )
         }
     }
     
